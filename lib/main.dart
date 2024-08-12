@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_app/home_screen.dart';
+import 'package:practice_app/settings_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,8 +11,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen()
-    );
+        debugShowCheckedModeBanner: false, home: SettingsScreen());
   }
 }
