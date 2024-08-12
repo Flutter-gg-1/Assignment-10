@@ -1,3 +1,5 @@
+import 'package:assignment_10/container_info.dart';
+import 'package:assignment_10/row_w_d_m_service.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,47 +12,216 @@ class HomeScreen extends StatelessWidget {
         title: const Text('User settings',
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
       ),
-      body: Container(
-        height: 200,
-        width: 400,
-        alignment: Alignment.topLeft,
-        padding: const EdgeInsets.all(20),
-        color: Colors.blue[800],
-        child: const Column(
+      body: SingleChildScrollView(
+        child: Column(
           children: [
-            Row(
+            containerInfo(),
+            const SizedBox(height: 20),
+            getRowWDMService(),
+            const SizedBox(height: 20),
+            Column(
               children: [
-                CircleAvatar(
-                  radius: 30,
-                  backgroundColor: Colors.white,
-                  child: Icon(
-                    Icons.person,
-                    color: Colors.black,
-                    size: 40,
+                Container(
+                  height: 100,
+                  width: 400,
+                  color: Colors.blue[800],
+                  alignment: Alignment.centerLeft,
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.white,
+                          child: Icon(
+                            Icons.location_pin,
+                            color: Colors.black,
+                            size: 40,
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              'Address',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              'Ensure you harvesting address',
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
-                SizedBox(width: 20),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Rein Gundersen Bentdal',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold),
+                const SizedBox(height: 20),
+                Container(
+                  height: 100,
+                  width: 400,
+                  color: Colors.blue[800],
+                  alignment: Alignment.centerLeft,
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.white,
+                          child: Icon(
+                            Icons.privacy_tip_outlined,
+                            color: Colors.black,
+                            size: 40,
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              'Privacy',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              'System permission changes',
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
-                    Text(
-                      'Creative builder',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 15,
-                          fontWeight: FontWeight.bold),
+                  ),
+                ),
+                const SizedBox(height: 20),
+                Container(
+                  height: 100,
+                  width: 400,
+                  color: Colors.blue[800],
+                  alignment: Alignment.centerLeft,
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.white,
+                          child: Icon(
+                            Icons.g_mobiledata_rounded,
+                            color: Colors.black,
+                            size: 40,
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              'General',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              'Basic functional settings',
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
-                  ],
-                )
+                  ),
+                ),
+                const SizedBox(height: 20),
+                Container(
+                  height: 100,
+                  width: 400,
+                  color: Colors.blue[800],
+                  alignment: Alignment.centerLeft,
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.white,
+                          child: Icon(
+                            Icons.alarm,
+                            color: Colors.black,
+                            size: 40,
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              'Notifications',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              'Take over the news in time',
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 20),
+                Container(
+                  height: 100,
+                  width: 400,
+                  color: Colors.blue[800],
+                  alignment: Alignment.centerLeft,
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.white,
+                          child: Icon(
+                            Icons.support_agent,
+                            color: Colors.black,
+                            size: 40,
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              'Support',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              'we are here to help',
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
-            ),
+            )
           ],
         ),
       ),
