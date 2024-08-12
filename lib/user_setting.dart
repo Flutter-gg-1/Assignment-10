@@ -7,9 +7,10 @@ class UserSetting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 228, 238, 239),
+      backgroundColor: const Color.fromARGB(255, 197, 202, 202),
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Text("User settings",
                 style: TextStyle(
@@ -23,7 +24,7 @@ class UserSetting extends StatelessWidget {
               height: 150,
               width: 380,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 30, 77, 180),
+                color: const Color.fromARGB(255, 71, 12, 85),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: kElevationToShadow[8],
               ),
@@ -40,7 +41,7 @@ class UserSetting extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: RoundIcon(
                           icon: Icons.account_circle_sharp,
-                          backgroundColor: Colors.white,
+                          backgroundColor: const Color.fromARGB(255, 226, 224, 224),
                           iconColor: Colors.black,
                           padding: 10,
                           size: 40,
@@ -53,7 +54,7 @@ class UserSetting extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Amjad Noor Ilahi",
+                            "Rein Gundersen Bentdal",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -264,13 +265,13 @@ class UserSetting extends StatelessWidget {
               ],
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Container(
               height: 80,
               width: 380,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 30, 77, 180),
+                color: const Color.fromARGB(255, 71, 12, 85),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: kElevationToShadow[8],
               ),
@@ -287,7 +288,7 @@ class UserSetting extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: RoundIcon(
                           icon: Icons.location_on,
-                          backgroundColor: const Color.fromARGB(255, 167, 108, 218),
+                          backgroundColor: const Color.fromARGB(255, 161, 135, 183),
                           iconColor: Colors.white,
                           padding: 10,
                           size: 30,
@@ -318,13 +319,13 @@ class UserSetting extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Container(
               height: 80,
               width: 380,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 30, 77, 180),
+                color: const Color.fromARGB(255, 71, 12, 85),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: kElevationToShadow[8],
               ),
@@ -341,7 +342,7 @@ class UserSetting extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: RoundIcon(
                           icon: Icons.lock,
-                          backgroundColor: const Color.fromARGB(255, 227, 83, 131),
+                          backgroundColor: const Color.fromARGB(255, 224, 110, 148),
                           iconColor: Colors.white,
                           padding: 10,
                           size: 30,
@@ -372,13 +373,13 @@ class UserSetting extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Container(
               height: 80,
               width: 380,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 30, 77, 180),
+                color: const Color.fromARGB(255, 71, 12, 85),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: kElevationToShadow[8],
               ),
@@ -395,7 +396,7 @@ class UserSetting extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: RoundIcon(
                           icon: Icons.menu,
-                          backgroundColor: const Color.fromARGB(255, 227, 166, 76),
+                          backgroundColor: const Color.fromARGB(255, 210, 165, 99),
                           iconColor: Colors.white,
                           padding: 10,
                           size: 30,
@@ -426,13 +427,13 @@ class UserSetting extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Container(
               height: 80,
               width: 380,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 30, 77, 180),
+                color: const Color.fromARGB(255, 71, 12, 85),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: kElevationToShadow[8],
               ),
@@ -449,7 +450,7 @@ class UserSetting extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: RoundIcon(
                           icon: Icons.notifications,
-                          backgroundColor: Colors.cyan,
+                          backgroundColor: const Color.fromARGB(255, 103, 189, 201),
                           iconColor: Colors.white,
                           padding: 10,
                           size: 30,
@@ -480,13 +481,13 @@ class UserSetting extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Container(
               height: 80,
               width: 380,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 30, 77, 180),
+                color: const Color.fromARGB(255, 71, 12, 85),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: kElevationToShadow[8],
               ),
@@ -503,7 +504,7 @@ class UserSetting extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: RoundIcon(
                           icon: Icons.mode_comment,
-                          backgroundColor: const Color.fromARGB(255, 178, 130, 112),
+                          backgroundColor: const Color.fromARGB(255, 185, 135, 117),
                           iconColor: Colors.white,
                           padding: 10,
                           size: 30,
