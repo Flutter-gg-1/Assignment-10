@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Center headerView() {
+Center settingsHeaderView() {
   return const Center(
     child: Expanded(
         child: Text(

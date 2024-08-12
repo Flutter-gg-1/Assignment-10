@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:user_settings/extensions/theme_colors.dart';
 
-Container cardView() {
+Container userCardView() {
   return Container(
     padding: EdgeInsets.only(top: 16, bottom: 32, left: 16, right: 16),
     decoration: BoxDecoration(
