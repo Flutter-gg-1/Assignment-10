@@ -111,7 +111,7 @@ class UserSettings extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               SettingsItem(styledIcon: StyledIcon(icon: Icons.location_on, iconColor: Colors.white, backgroundIconColor: Colors.purple[800]!), title: "Address", subtitle: "Ensure your harvesting address"),
-              const SettingsItem(styledIcon: StyledIcon(icon: Icons.lock, iconColor: Colors.white, backgroundIconColor: Colors.pink), title: "Privacy", subtitle: "System permission change"),
+              SettingsItem(styledIcon: StyledIcon(icon: Icons.lock, iconColor: Colors.white, backgroundIconColor: Colors.pink[400]!), title: "Privacy", subtitle: "System permission change"),
               SettingsItem(styledIcon: StyledIcon(icon: Icons.menu, iconColor: Colors.white, backgroundIconColor: Colors.yellow[600]!), title: "General", subtitle: "Basic functional settings"),
               const SettingsItem(styledIcon: StyledIcon(icon: Icons.notifications, iconColor: Colors.white, backgroundIconColor: Colors.teal), title: "Notifications", subtitle: "Take over the news in time"),
               SettingsItem(styledIcon: StyledIcon(icon: Icons.support, iconColor: Colors.white, backgroundIconColor: Colors.brown[400]!), title: "Support", subtitle: "We are here to help"),

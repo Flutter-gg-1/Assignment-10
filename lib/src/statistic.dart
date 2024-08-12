@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // imports material design widgets and properities
 
+// widget represents a statistic in blue container
 class Statistic extends StatelessWidget {
   final String value;
   final String label;

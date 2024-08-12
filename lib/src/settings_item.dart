@@ -14,7 +14,11 @@ class SettingsItem extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10),
       margin: const EdgeInsets.all(10),
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),color: Colors.white ,boxShadow: [BoxShadow(color: Colors.black26, offset: Offset(0, 5), blurRadius: 5)]),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        color: Colors.white ,
+        boxShadow: const [BoxShadow(color: Colors.black12, offset: Offset(0, 2), blurRadius: 5)]
+        ),
       child: Row(
         children: [
         styledIcon,
