@@ -1,5 +1,4 @@
-## Assignment:
-Implement this design in an app using Flutter, using widgets that we take in lesson today.
+## User Settings Page - Flutter:
 
 ## about assignment:
 I designed a user settings page that is clean and user-friendly.
