@@ -1,16 +1,21 @@
 # asg10
 
-A new Flutter project.
 
-## Getting Started
+### widget that has been used for the ui :
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+- Row and Column : most layout are used with them
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- SizedBox : used for make space beetwen widgets and give ListTile hight and width
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- BoxShadow : to add shadow to Container
+
+- CircleAvatar to add img or icon in Circle way 
+
+
+- ListTile : is used to show data in easy way by add what leading widget and title and subtitle and with use of SizedBox can add to it the hight and width
+
+
+- icon : is used to show up icons and can give it color
+
+
