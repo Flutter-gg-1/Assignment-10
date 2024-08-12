@@ -110,6 +110,60 @@ class HomeScreen extends StatelessWidget {
                   )
                 ],
               )),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Column(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: const Color.fromARGB(255, 223, 223, 223)
+                    ),
+                      child: IconButton(
+                          onPressed: () {}, icon: Icon(Icons.attach_money))),
+                  Text('Wallet')
+                ],
+              ),
+              Column(
+                children: [
+                       Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: const Color.fromARGB(255, 223, 223, 223)
+                    ),
+                      child: IconButton(
+                          onPressed: () {}, icon: Icon(Icons.card_giftcard))),
+                  Text('Delivery')
+                ],
+              ),
+              Column(
+                children: [
+                       Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: const Color.fromARGB(255, 223, 223, 223)
+                    ),
+                      child: IconButton(
+                          onPressed: () {}, icon: Icon(Icons.message_outlined))),
+                  Text('Message')
+                ],
+              ),
+              Column(
+                children: [
+                       Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: const Color.fromARGB(255, 223, 223, 223)
+                    ),
+                      child: IconButton(
+                          onPressed: () {}, icon: Icon(Icons.room_service_sharp))),
+                  Text('Service')
+                ],
+              ),
+            ],
+          ),
+          
         ],
       ),
     );
