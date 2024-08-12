@@ -69,8 +69,10 @@ class UserSettingsScreen extends StatelessWidget {
                           children: [
                             Text(
                               "816",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 16),
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold),
                             ),
                             Text(
                               "Collect",
@@ -84,8 +86,10 @@ class UserSettingsScreen extends StatelessWidget {
                           children: [
                             Text(
                               "267",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 16),
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold),
                             ),
                             Text(
                               "Attention",
@@ -99,8 +103,10 @@ class UserSettingsScreen extends StatelessWidget {
                           children: [
                             Text(
                               "51",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 16),
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold),
                             ),
                             Text(
                               "Track",
@@ -114,8 +120,10 @@ class UserSettingsScreen extends StatelessWidget {
                           children: [
                             Text(
                               "39",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 16),
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold),
                             ),
                             Text(
                               "Coupons",
@@ -146,8 +154,11 @@ class UserSettingsScreen extends StatelessWidget {
                               color: const Color.fromARGB(93, 132, 130, 130)
                                   .withOpacity(0.2),
                               borderRadius: BorderRadius.circular(50)),
-                          child: const Icon(Icons.attach_money,
-                              color: Color(0xff444e6c)),
+                          child: const Icon(
+                            Icons.attach_money,
+                            color: Color(0xff444e6c),
+                            size: 16,
+                          ),
                         ),
                         const Text(
                           "Wallet",
@@ -166,8 +177,11 @@ class UserSettingsScreen extends StatelessWidget {
                               color: const Color.fromARGB(93, 132, 130, 130)
                                   .withOpacity(0.2),
                               borderRadius: BorderRadius.circular(50)),
-                          child: const Icon(Icons.card_giftcard,
-                              color: Color(0xff444e6c)),
+                          child: const Icon(
+                            Icons.card_giftcard,
+                            color: Color(0xff444e6c),
+                            size: 16,
+                          ),
                         ),
                         const Text(
                           "Delivery",
@@ -186,8 +200,11 @@ class UserSettingsScreen extends StatelessWidget {
                               color: const Color.fromARGB(93, 132, 130, 130)
                                   .withOpacity(0.2),
                               borderRadius: BorderRadius.circular(50)),
-                          child: const Icon(Icons.message,
-                              color: Color(0xff444e6c)),
+                          child: const Icon(
+                            Icons.message,
+                            color: Color(0xff444e6c),
+                            size: 16,
+                          ),
                         ),
                         const Text(
                           "Message",
@@ -206,8 +223,11 @@ class UserSettingsScreen extends StatelessWidget {
                               color: const Color.fromARGB(93, 132, 130, 130)
                                   .withOpacity(0.2),
                               borderRadius: BorderRadius.circular(40)),
-                          child: const Icon(Icons.room_service,
-                              color: Color(0xff444e6c)),
+                          child: const Icon(
+                            Icons.room_service,
+                            color: Color(0xff444e6c),
+                            size: 16,
+                          ),
                         ),
                         const Text(
                           "Service",
@@ -247,7 +267,7 @@ class UserSettingsScreen extends StatelessWidget {
                         Text(
                           "Address",
                           style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 14,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
@@ -291,7 +311,7 @@ class UserSettingsScreen extends StatelessWidget {
                         Text(
                           "Privacy",
                           style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 14,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
@@ -335,7 +355,7 @@ class UserSettingsScreen extends StatelessWidget {
                         Text(
                           "General",
                           style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 14,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
@@ -379,7 +399,7 @@ class UserSettingsScreen extends StatelessWidget {
                         Text(
                           "Notifications",
                           style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 14,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
@@ -423,7 +443,7 @@ class UserSettingsScreen extends StatelessWidget {
                         Text(
                           "Support",
                           style: TextStyle(
-                              fontSize: 18,
+                              fontSize: 14,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
