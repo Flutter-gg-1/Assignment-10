@@ -1,15 +1,16 @@
-## Assignment:
-Implement this design in an app using Flutter, using widgets that we take in lesson today.
+# asg10
 
-![styled_widget-2](https://github.com/user-attachments/assets/0498f740-2cef-423f-a9c0-736216d33c2a)
+A new Flutter project.
 
+## Getting Started
 
-## Note:
-Upload screenshots of your app
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-## Submission Details:
-Deadline: 13 August 2024
-Submission Format: Provide your Flutter code file(s) along with a README file explaining widgets you are used.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Good luck, and happy coding!
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
