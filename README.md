@@ -1,6 +1,6 @@
 ## User Settings Page - Flutter:
 
-## about assignment:
+## About :
 I designed a user settings page that is clean and user-friendly.
 
 ### Header:
