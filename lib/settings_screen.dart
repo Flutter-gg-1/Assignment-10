@@ -9,12 +9,12 @@ class SettingsScreen extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 245, 245, 245),
       appBar: AppBar(
         centerTitle: true,
-        leading: BackButton(onPressed: (){}),
+        leading: BackButton(onPressed: () {}),
         backgroundColor: const Color.fromARGB(255, 245, 245, 245),
         title: Text('User settings',
             style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
       ),
-      body: ListView(children: [
+      body: ListView(padding: EdgeInsets.only(top: 30), children: [
         Column(
           children: [
             Container(
@@ -22,6 +22,14 @@ class SettingsScreen extends StatelessWidget {
                 height: 150,
                 width: 350,
                 decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                        blurRadius: 8,
+                        blurStyle: BlurStyle.normal,
+                        color: Colors.black,
+                        offset: Offset.zero,
+                        spreadRadius: 1)
+                  ],
                   borderRadius: BorderRadius.circular(20),
                   color: const Color.fromARGB(255, 41, 80, 235),
                 ),

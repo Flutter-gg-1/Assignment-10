@@ -17,6 +17,7 @@ User settings page that can be used in applications to personalize settings and 
 - Used IceButton and BackButton
 - Used SizeBox to add spaces between widgets that do not have padding attribute
 - Used circle Containers to place icons in as shown in UI design
+- Used BoxShadow on Container 
 
 
 ## Screenshots
