@@ -263,7 +263,276 @@ class UserSetting extends StatelessWidget {
                 ),
               ],
             ),
-            
+            const SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 80,
+              width: 380,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 30, 77, 180),
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: kElevationToShadow[8],
+              ),
+              child: Column(
+                children: [
+                  const Padding(padding: EdgeInsets.only(top: 10)),
+                  Row(
+                    children: [
+                      const Padding(padding: EdgeInsets.only(left: 20)),
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50)),
+                        child: RoundIcon(
+                          icon: Icons.location_on,
+                          backgroundColor: const Color.fromARGB(255, 167, 108, 218),
+                          iconColor: Colors.white,
+                          padding: 10,
+                          size: 30,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Address",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          Text("Ensure your harvesting address",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 224, 222, 222),
+                              )),
+                        ],
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 80,
+              width: 380,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 30, 77, 180),
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: kElevationToShadow[8],
+              ),
+              child: Column(
+                children: [
+                  const Padding(padding: EdgeInsets.only(top: 10)),
+                  Row(
+                    children: [
+                      const Padding(padding: EdgeInsets.only(left: 20)),
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50)),
+                        child: RoundIcon(
+                          icon: Icons.lock,
+                          backgroundColor: const Color.fromARGB(255, 227, 83, 131),
+                          iconColor: Colors.white,
+                          padding: 10,
+                          size: 30,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Privacy",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          Text("System permission change",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 224, 222, 222),
+                              )),
+                        ],
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 80,
+              width: 380,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 30, 77, 180),
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: kElevationToShadow[8],
+              ),
+              child: Column(
+                children: [
+                  const Padding(padding: EdgeInsets.only(top: 10)),
+                  Row(
+                    children: [
+                      const Padding(padding: EdgeInsets.only(left: 20)),
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50)),
+                        child: RoundIcon(
+                          icon: Icons.menu,
+                          backgroundColor: const Color.fromARGB(255, 227, 166, 76),
+                          iconColor: Colors.white,
+                          padding: 10,
+                          size: 30,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "General",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          Text("Basic functional setting",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 224, 222, 222),
+                              )),
+                        ],
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 80,
+              width: 380,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 30, 77, 180),
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: kElevationToShadow[8],
+              ),
+              child: Column(
+                children: [
+                  const Padding(padding: EdgeInsets.only(top: 10)),
+                  Row(
+                    children: [
+                      const Padding(padding: EdgeInsets.only(left: 20)),
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50)),
+                        child: RoundIcon(
+                          icon: Icons.notifications,
+                          backgroundColor: Colors.cyan,
+                          iconColor: Colors.white,
+                          padding: 10,
+                          size: 30,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Notifications",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          Text("Take over the news in time",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 224, 222, 222),
+                              )),
+                        ],
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 80,
+              width: 380,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 30, 77, 180),
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: kElevationToShadow[8],
+              ),
+              child: Column(
+                children: [
+                  const Padding(padding: EdgeInsets.only(top: 10)),
+                  Row(
+                    children: [
+                      const Padding(padding: EdgeInsets.only(left: 20)),
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50)),
+                        child: RoundIcon(
+                          icon: Icons.mode_comment,
+                          backgroundColor: const Color.fromARGB(255, 178, 130, 112),
+                          iconColor: Colors.white,
+                          padding: 10,
+                          size: 30,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Support",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18),
+                          ),
+                          Text("We ae here to help",
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 224, 222, 222),
+                              )),
+                        ],
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
