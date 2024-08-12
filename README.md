@@ -1,15 +1,33 @@
-## Assignment:
-Implement this design in an app using Flutter, using widgets that we take in lesson today.
+# Flutter Single Page App (User Settings Layout)
 
-![styled_widget-2](https://github.com/user-attachments/assets/0498f740-2cef-423f-a9c0-736216d33c2a)
+A single interface created using Dart-Flutter for a 'User-Settings' page.
+- The app does not include any user interactions. 
+- Widgets used: Center, Column, Row, Stack, SingleChildScroll, Padding, Container, SizedBox, Text, Icon, Button
 
+## Table of Contents
 
-## Note:
-Upload screenshots of your app
+- [Installation](#installation)
+- [Created By](#created-by)
 
+## Installation
 
-## Submission Details:
-Deadline: 13 August 2024
-Submission Format: Provide your Flutter code file(s) along with a README file explaining widgets you are used.
+To install and run this application, follow these steps:
 
-Good luck, and happy coding!
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/amer266030/Assignment-10.git
+    ```
+
+2. **Run the application:**
+
+    ```bash
+    cd user_settings
+    flutter run
+    ```
+
+## Created By
+
+- **Amer Alyusuf**
+- [Personal Website](https://amer266030.github.io)
+- [LinkedIn](https://www.linkedin.com/in/amer-alyusuf-77398587)
