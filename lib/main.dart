@@ -1,5 +1,5 @@
-import 'package:assignment10/src/user_settings.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';               // imports material design widgets and properities
+import 'package:assignment10/src/user_settings.dart'; // main widget
 
 void main() {
   runApp(const MainApp());
