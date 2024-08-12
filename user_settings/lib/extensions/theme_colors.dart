@@ -4,7 +4,8 @@ extension ThemeColors on Colors {
   // Background
   static var bg = const Color(0xFFFAF8F9);
   // Caption Text
-  static var caption = const Color(0xFFB5B3B6);
+  static var caption1 = const Color(0xFFA1BCF6);
+  static var caption2 = const Color(0xFFB5B3B6);
   // Plain Circle Icons
   static var pearl = const Color(0xFFF3F3F7);
   static var darkBlue = const Color(0xFF444E6C);

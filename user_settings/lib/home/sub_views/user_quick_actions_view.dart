@@ -23,7 +23,7 @@ Column _columnView({required IconData icon, required String str}) {
       ]),
       Text(
         str,
-        style: TextStyle(fontSize: 10),
+        style: TextStyle(fontSize: 11),
       )
     ],
   );

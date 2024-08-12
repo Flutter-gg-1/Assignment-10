@@ -5,7 +5,15 @@ Container userCardView() {
   return Container(
     padding: EdgeInsets.only(top: 16, bottom: 32, left: 16, right: 16),
     decoration: BoxDecoration(
-        color: ThemeColors.blue, borderRadius: BorderRadius.circular(24)),
+        color: ThemeColors.blue,
+        borderRadius: BorderRadius.circular(24),
+        boxShadow: [
+          BoxShadow(
+              color: Colors.blue.withOpacity(0.25),
+              spreadRadius: 2.5,
+              blurRadius: 5,
+              offset: Offset(0, 4))
+        ]),
     child: Column(
       children: [
         Row(
@@ -56,23 +64,33 @@ Column _nameView() {
     children: [
       Text('Rein Gundersen Bentdal',
           style: TextStyle(
-              fontSize: 14,
+              fontSize: 16,
               color: ThemeColors.bg,
-              fontWeight: FontWeight.w500)),
+              fontWeight: FontWeight.w600)),
       const SizedBox(height: 4),
       Text('Creative builder',
-          style: TextStyle(fontSize: 10, color: ThemeColors.caption)),
+          style: TextStyle(
+              fontSize: 11,
+              fontWeight: FontWeight.w400,
+              color: ThemeColors.caption1)),
     ],
   );
 }
 
 Column _statsView({required String num, required String str}) {
   return Column(children: [
-    Text(
-      '846',
-      style: TextStyle(
-          fontSize: 16, fontWeight: FontWeight.w500, color: ThemeColors.bg),
+    Padding(
+      padding: const EdgeInsets.all(4.0),
+      child: Text(
+        num,
+        style: TextStyle(
+            fontSize: 16, fontWeight: FontWeight.w500, color: ThemeColors.bg),
+      ),
     ),
-    Text('Collect', style: TextStyle(fontSize: 10, color: ThemeColors.caption)),
+    Text(str,
+        style: TextStyle(
+            fontSize: 11,
+            fontWeight: FontWeight.w400,
+            color: ThemeColors.caption1)),
   ]);
 }
