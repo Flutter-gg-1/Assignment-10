@@ -154,6 +154,115 @@ class UserSetting extends StatelessWidget {
                 ],
               ),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Column(
+                  children: [
+                    const Padding(padding: EdgeInsets.only(top: 20)),
+                    Container(
+                      height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50)),
+                      child: RoundIcon(
+                        icon: Icons.attach_money_sharp,
+                        backgroundColor:
+                            const Color.fromARGB(255, 225, 228, 230),
+                        iconColor: Colors.black,
+                        padding: 10,
+                        size: 30,
+                      ),
+                    ),
+                    const Text(
+                      "Wallet",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 127, 126, 126)),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    const Padding(padding: EdgeInsets.only(top: 20)),
+                    Container(
+                      height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50)),
+                      child: RoundIcon(
+                        icon: Icons.card_giftcard,
+                        backgroundColor:
+                            const Color.fromARGB(255, 225, 228, 230),
+                        iconColor: Colors.black,
+                        padding: 10,
+                        size: 30,
+                      ),
+                    ),
+                    const Text(
+                      "Delivery",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 127, 126, 126)),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    const Padding(padding: EdgeInsets.only(top: 20)),
+                    Container(
+                      height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50)),
+                      child: RoundIcon(
+                        icon: Icons.message_rounded,
+                        backgroundColor:
+                            const Color.fromARGB(2255, 225, 228, 230),
+                        iconColor: Colors.black,
+                        padding: 10,
+                        size: 30,
+                      ),
+                    ),
+                    const Text(
+                      "Message",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 127, 126, 126)),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    const Padding(padding: EdgeInsets.only(top: 20)),
+                    Container(
+                      height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50)),
+                      child: RoundIcon(
+                        icon: Icons.room_service_rounded,
+                        backgroundColor:
+                            const Color.fromARGB(255, 225, 228, 230),
+                        iconColor: Colors.black,
+                        padding: 10,
+                        size: 30,
+                      ),
+                    ),
+                    const Text(
+                      "Service",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 127, 126, 126)),
+                    )
+                  ],
+                ),
+              ],
+            ),
             
           ],
         ),
