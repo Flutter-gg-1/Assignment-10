@@ -1,4 +1,4 @@
-import 'package:assignment10/user_settings.dart';
+import 'package:assignment10/src/user_settings.dart';
 import 'package:flutter/material.dart';
 
 void main() {

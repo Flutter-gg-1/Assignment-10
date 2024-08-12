@@ -1,3 +1,5 @@
+import 'package:assignment10/src/statistic.dart';
+import 'package:assignment10/src/styled_icon.dart';
 import 'package:flutter/material.dart';
 
 class UserSettings extends StatelessWidget {
@@ -21,9 +23,9 @@ class UserSettings extends StatelessWidget {
                 padding: const EdgeInsets.only(bottom: 20),
                 width: 370,
                 height: 150,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(15),
-                    color: Colors.blue),
+                decoration: BoxDecoration(boxShadow: [
+                  BoxShadow(color: Colors.blue[200]!, offset: const Offset(0, 5), blurRadius: 5)
+                ], borderRadius: BorderRadius.circular(15), color: Colors.blue),
                 alignment: Alignment.center,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -59,58 +61,58 @@ class UserSettings extends StatelessWidget {
                     const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        Column(children: [
-                          Text(
-                            "846",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text("Collect",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 10))
-                        ]),
-                        Column(children: [
-                          Text(
-                            "51",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text("Attention",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 10))
-                        ]),
-                        Column(children: [
-                          Text(
-                            "267",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text("Track",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 10))
-                        ]),
-                        Column(children: [
-                          Text(
-                            "39",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text("Coupons",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 10))
-                        ])
+                        Statistic(value: "846", label: "Collect"),
+                        Statistic(value: "51", label: "Attention"),
+                        Statistic(value: "267", label: "Track"),
+                        Statistic(value: "39", label: "Coupons"),
                       ],
                     )
                   ],
                 ),
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Column(
+                    children: [
+                      StyledIcon(icon: Icons.attach_money),
+                      Text(
+                        "Wallet",
+                        style: TextStyle(fontSize: 10),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      StyledIcon(icon: Icons.card_giftcard),
+                      Text(
+                        "Delivery",
+                        style: TextStyle(fontSize: 10),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      StyledIcon(icon: Icons.message),
+                      Text(
+                        "Message",
+                        style: TextStyle(fontSize: 10),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      StyledIcon(icon: Icons.room_service),
+                      Text(
+                        "Service",
+                        style: TextStyle(fontSize: 10),
+                      )
+                    ],
+                  ),
+                ],
               ),
             )
           ],
