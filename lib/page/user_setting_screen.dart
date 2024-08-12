@@ -10,16 +10,24 @@ class UserSettingScreen extends StatelessWidget {
       body: SafeArea(
         child: Container(
           margin: const EdgeInsets.all(18.0),
-          child: const Column(
+          child: Column(
             children: [
-              Text(style: TextStyle(fontSize: 30), "User Settings"),
-              TitleCard(),
-              SizedBox(height: 10),
-              QuickOptions(),
-              /*  */
-              Card(
-                child: ListTile(
-                  leading: CircleAvatar(child: Icon(Icons.location_on)),
+              const Text(style: TextStyle(fontSize: 30), "User Settings"),
+              const TitleCard(),
+              const SizedBox(height: 10),
+              const QuickOptions(),
+              /* list  */
+              Container(
+                decoration: BoxDecoration(
+                  boxShadow: kElevationToShadow[1],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const ListTile(
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.deepPurple,
+                    child: Icon(color: Colors.white, Icons.location_on),
+                  ),
                   title: Text(
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -27,9 +35,18 @@ class UserSettingScreen extends StatelessWidget {
                   subtitle: Text('Ensure your harvesting address'),
                 ),
               ),
-              Card(
-                child: ListTile(
-                  leading: CircleAvatar(child: Icon(Icons.lock)),
+              const SizedBox(height: 10),
+              Container(
+                decoration: BoxDecoration(
+                  boxShadow: kElevationToShadow[1],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const ListTile(
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.pinkAccent,
+                    child: Icon(color: Colors.white, Icons.lock),
+                  ),
                   title: Text(
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -37,9 +54,18 @@ class UserSettingScreen extends StatelessWidget {
                   subtitle: Text('System permision change'),
                 ),
               ),
-              Card(
-                child: ListTile(
-                  leading: CircleAvatar(child: Icon(Icons.list_rounded)),
+              const SizedBox(height: 10),
+              Container(
+                decoration: BoxDecoration(
+                  boxShadow: kElevationToShadow[1],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const ListTile(
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.orangeAccent,
+                    child: Icon(color: Colors.white, Icons.list_rounded),
+                  ),
                   title: Text(
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -47,14 +73,42 @@ class UserSettingScreen extends StatelessWidget {
                   subtitle: Text('Basic functionsl settings'),
                 ),
               ),
-              Card(
-                child: ListTile(
-                  leading: CircleAvatar(child: Icon(Icons.notifications)),
+              const SizedBox(height: 10),
+              Container(
+                decoration: BoxDecoration(
+                  boxShadow: kElevationToShadow[1],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const ListTile(
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.lightGreenAccent,
+                    child: Icon(color: Colors.white, Icons.notifications),
+                  ),
                   title: Text(
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                       'Notifications'),
                   subtitle: Text('Take over the news in time'),
+                ),
+              ),
+              const SizedBox(height: 10),
+              Container(
+                decoration: BoxDecoration(
+                  boxShadow: kElevationToShadow[1],
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const ListTile(
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.brown,
+                    child: Icon(color: Colors.white, Icons.forum),
+                  ),
+                  title: Text(
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      'Support'),
+                  subtitle: Text('We are hear to help'),
                 ),
               ),
             ],
@@ -79,7 +133,6 @@ class QuickOptions extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(1, 243, 243, 248),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: const CircleAvatar(
@@ -93,7 +146,6 @@ class QuickOptions extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(1, 243, 243, 248),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: const CircleAvatar(
@@ -108,12 +160,10 @@ class QuickOptions extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(1, 243, 243, 248),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Container(
-                decoration: const BoxDecoration(
-                    color: Color.fromRGBO(244, 243, 245, 1)),
+                decoration: const BoxDecoration(),
                 child: const CircleAvatar(
                   child: Icon(Icons.message),
                 ),
@@ -126,7 +176,6 @@ class QuickOptions extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(1, 243, 243, 248),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: const CircleAvatar(
@@ -149,7 +198,7 @@ class TitleCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 170,
+      height: 140,
       decoration: BoxDecoration(
         boxShadow: kElevationToShadow[2],
         color: const Color.fromRGBO(56, 116, 254, 1),
@@ -159,20 +208,20 @@ class TitleCard extends StatelessWidget {
         children: [
           Container(
             margin: const EdgeInsets.all(8.0),
-            height: 100,
+            height: 70,
             child: const ListTile(
               leading: CircleAvatar(child: Icon(Icons.account_circle)),
               title: Text(
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
-                      fontSize: 20),
+                      fontSize: 16),
                   'Rein Gundersen Bentdal'),
               subtitle: Text(
                   style: TextStyle(
                     color: Color.fromRGBO(157, 193, 252, 1),
                   ),
-                  'Creative buildee'),
+                  'Creative builder'),
             ),
           ),
           const Row(
