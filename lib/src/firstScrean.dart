@@ -20,11 +20,11 @@ class Firstscrean extends StatelessWidget {
               height: 200,
               width: 400,
               decoration: BoxDecoration(
-                boxShadow: [
+                boxShadow: const [
                   BoxShadow(
                     color: Colors.blue,
                     blurRadius: 10.0,
-                    offset: Offset(0, 4),
+                    offset: Offset(0, 3),
                   )
                 ],
                 color: Colors.blue,
@@ -151,7 +151,7 @@ class Firstscrean extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       radius: 35,
-                      backgroundColor: Color.fromARGB(255, 181, 192, 198),
+                      backgroundColor: Color.fromARGB(255, 223, 225, 225),
                       child: Icon(
                         Icons.attach_money,
                         size: 35,
@@ -170,9 +170,9 @@ class Firstscrean extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       radius: 35,
-                      backgroundColor: Color.fromARGB(255, 181, 192, 198),
+                      backgroundColor: Color.fromARGB(255, 223, 225, 225),
                       child: Icon(
-                        Icons.shop,
+                        Icons.card_giftcard,
                         size: 35,
                         color: Colors.black,
                       ),
@@ -189,7 +189,7 @@ class Firstscrean extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       radius: 35,
-                      backgroundColor: Color.fromARGB(255, 181, 192, 198),
+                      backgroundColor: Color.fromARGB(255, 223, 225, 225),
                       child: Icon(
                         Icons.message,
                         size: 35,
@@ -208,7 +208,7 @@ class Firstscrean extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       radius: 35,
-                      backgroundColor: Color.fromARGB(255, 181, 192, 198),
+                      backgroundColor: Color.fromARGB(255, 223, 225, 225),
                       child: Icon(
                         Icons.room_service,
                         size: 35,
