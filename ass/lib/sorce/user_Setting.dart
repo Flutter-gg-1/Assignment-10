@@ -14,7 +14,7 @@ class UserSetting extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                margin: EdgeInsets.all(8),
+                margin: EdgeInsets.all(10),
                 child: const Text(
                   "User setting",
                   style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
@@ -27,7 +27,7 @@ class UserSetting extends StatelessWidget {
                 padding: EdgeInsets.all(14),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
-                    color: const Color.fromARGB(255, 60, 43, 112),
+                    color:const Color.fromARGB(255, 23, 138, 136),
                     boxShadow: kElevationToShadow[1]),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -46,7 +46,7 @@ class UserSetting extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          width: 18,
+                          width: 20,
                         ),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -137,7 +137,7 @@ class UserSetting extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.grey.shade200),
+                            color: const Color.fromARGB(255, 152, 216, 198)),
                         child: Icon(Icons.attach_money, color: Colors.black),
                       ),
                       Text("Wallet")
@@ -148,9 +148,10 @@ class UserSetting extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.grey.shade200),
+                            color: const Color.fromARGB(255, 152, 216, 198)),
                         child: Icon(Icons.card_giftcard, color: Colors.black),
                       ),
+                      
                       Text("Delivery")
                     ],
                   ),
@@ -159,7 +160,7 @@ class UserSetting extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.grey.shade200),
+                            color:const Color.fromARGB(255, 152, 216, 198)),
                         child: Icon(Icons.message, color: Colors.black),
                       ),
                       Text("Massage")
@@ -170,7 +171,7 @@ class UserSetting extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.grey.shade200),
+                            color: const Color.fromARGB(255, 152, 216, 198)),
                         child:
                             Icon(Icons.room_service_sharp, color: Colors.black),
                       ),
@@ -186,10 +187,10 @@ class UserSetting extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 margin: EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 232, 190, 190),
+                    color:  const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey.shade600,
+                          color: const Color.fromARGB(255, 117, 117, 117),
                           blurRadius: 40,
                           spreadRadius: 0.1)
                     ],
@@ -199,7 +200,7 @@ class UserSetting extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                          color: Colors.purple.shade600,
+                          color:const Color.fromARGB(255, 23, 138, 136),
                           borderRadius: BorderRadius.circular(100)),
                       child: Icon(
                         Icons.location_on,
@@ -231,7 +232,7 @@ class UserSetting extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 margin: EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 232, 190, 190),
+                    color:  const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
                           color: Colors.grey.shade600,
@@ -244,7 +245,7 @@ class UserSetting extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                          color: Colors.pink.shade300,
+                          color: const Color.fromARGB(255, 23, 138, 136),
                           borderRadius: BorderRadius.circular(100)),
                       child: Icon(
                         Icons.lock,
@@ -276,7 +277,7 @@ class UserSetting extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 margin: EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                    color:  const Color.fromARGB(255, 232, 190, 190),
+                    color:   const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
                           color: Colors.grey.shade600,
@@ -289,7 +290,7 @@ class UserSetting extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 247, 181, 68),
+                          color:const Color.fromARGB(255, 23, 138, 136),
                           borderRadius: BorderRadius.circular(100)),
                       child: Icon(
                         Icons.menu,
@@ -321,7 +322,7 @@ class UserSetting extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 margin: EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                    color:  const Color.fromARGB(255, 232, 190, 190),
+                    color:    const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
                           color: Colors.grey.shade600,
@@ -334,7 +335,7 @@ class UserSetting extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 78, 195, 205),
+                          color:    const Color.fromARGB(255, 23, 138, 136),
                           borderRadius: BorderRadius.circular(100)),
                       child: Icon(
                         Icons.notifications,
@@ -366,7 +367,7 @@ class UserSetting extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 margin: EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                    color:  const Color.fromARGB(255, 129, 140, 56),
+                    color:  const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
                           color: Colors.grey.shade600,
@@ -379,7 +380,7 @@ class UserSetting extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 182, 149, 134),
+                          color: const Color.fromARGB(255, 23, 138, 136),
                           borderRadius: BorderRadius.circular(100)),
                       child: Icon(
                         Icons.mode_comment,
