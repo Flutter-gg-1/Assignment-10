@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class SettingPage extends StatelessWidget {
   const SettingPage({super.key});
@@ -6,6 +7,7 @@ class SettingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 236, 236, 236),
       body: SafeArea(
           child: Column(children: [
         const Align(
@@ -19,7 +21,17 @@ class SettingPage extends StatelessWidget {
           children: [
             Container(
               padding: const EdgeInsets.all(18.0),
+              //Shadowes
               decoration: BoxDecoration(
+                  boxShadow: const [
+                    BoxShadow(
+                      blurRadius: 10,
+                      blurStyle: BlurStyle.normal,
+                      color: Colors.blue,
+                      offset: Offset(0, 20),
+                      spreadRadius: -17,
+                    ),
+                  ],
                   borderRadius: BorderRadius.circular(20),
                   color: Colors.blue[600]),
               height: 200,
@@ -161,13 +173,17 @@ class SettingPage extends StatelessWidget {
               ],
             ),
             const Padding(padding: EdgeInsets.all(7)),
-            const Column(
+            Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 Card(
-                  child: ListTile(
-                    // shape: RoundedRectangleBorder(
-                    //     borderRadius: BorderRadius.circular(16)),
+                  //Radius for card
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)),
+                  //shadow for card in bottom
+                  elevation: 3,
+                  color: Colors.white,
+                  child: const ListTile(
                     title: Text('Address',
                         style: TextStyle(fontWeight: FontWeight.bold)),
                     leading: CircleAvatar(
@@ -180,9 +196,15 @@ class SettingPage extends StatelessWidget {
                             color: Color.fromARGB(255, 153, 153, 153))),
                   ),
                 ),
-                Padding(padding: EdgeInsets.all(6.0)),
+                const Padding(padding: EdgeInsets.all(6.0)),
                 Card(
-                  child: ListTile(
+                  //Radius for card
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)),
+                  //shadow for card in bottom
+                  elevation: 3,
+                  color: Colors.white,
+                  child: const ListTile(
                     title: Text('Privacy',
                         style: TextStyle(fontWeight: FontWeight.bold)),
                     leading: CircleAvatar(
@@ -195,9 +217,15 @@ class SettingPage extends StatelessWidget {
                             color: Color.fromARGB(255, 153, 153, 153))),
                   ),
                 ),
-                Padding(padding: EdgeInsets.all(6.0)),
+                const Padding(padding: EdgeInsets.all(6.0)),
                 Card(
-                  child: ListTile(
+                  //Radius for card
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)),
+                  //shadow for card in bottom
+                  elevation: 3,
+                  color: Colors.white,
+                  child: const ListTile(
                     title: Text('General',
                         style: TextStyle(fontWeight: FontWeight.bold)),
                     leading: CircleAvatar(
@@ -210,9 +238,15 @@ class SettingPage extends StatelessWidget {
                             color: Color.fromARGB(255, 153, 153, 153))),
                   ),
                 ),
-                Padding(padding: EdgeInsets.all(6.0)),
+                const Padding(padding: EdgeInsets.all(6.0)),
                 Card(
-                  child: ListTile(
+                  //Radius for card
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)),
+                  //shadow for card in bottom
+                  elevation: 3,
+                  color: Colors.white,
+                  child: const ListTile(
                     title: Text('Notifications',
                         style: TextStyle(fontWeight: FontWeight.bold)),
                     leading: CircleAvatar(
@@ -225,9 +259,15 @@ class SettingPage extends StatelessWidget {
                             color: Color.fromARGB(255, 153, 153, 153))),
                   ),
                 ),
-                Padding(padding: EdgeInsets.all(6.0)),
+                const Padding(padding: EdgeInsets.all(6.0)),
                 Card(
-                  child: ListTile(
+                  //Radius for card
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)),
+                  //shadow for card in bottom
+                  elevation: 3,
+                  color: Colors.white,
+                  child: const ListTile(
                     title: Text('Support',
                         style: TextStyle(fontWeight: FontWeight.bold)),
                     leading: CircleAvatar(
