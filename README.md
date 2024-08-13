@@ -1,4 +1,4 @@
-# User Service System in Flutter
+# Coupon App in Flutter
 
 ## Description
 An flutter application used to review coupon, wallet, and delivery. By using custom widget etc. customIcon, customButton, and others. Also this app has functionality for routing(NOT completed yet!).
@@ -35,7 +35,7 @@ For common issues or troubleshooting:
 
 - Ensure all dependencies are correctly installed.
 - Verify that your Flutter SDK is up to date.
-- Review the code and verify that JSON data structures match expected formats.
+- Review the code and verify that structures match expected formats.
 For additional help, consult the Flutter documentation or open an issue on the project's GitHub repository.
 
 ### Example Usage
