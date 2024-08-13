@@ -6,9 +6,12 @@ Widget locationAndOthers() {
       Container(
         height: 100,
         width: 400,
-        color: Colors.blue[800],
         alignment: Alignment.centerLeft,
         margin: const EdgeInsets.symmetric(horizontal: 20),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: Colors.blue[800],
+        ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -48,9 +51,12 @@ Widget locationAndOthers() {
       Container(
         height: 100,
         width: 400,
-        color: Colors.blue[800],
         alignment: Alignment.centerLeft,
         margin: const EdgeInsets.symmetric(horizontal: 20),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: Colors.blue[800],
+        ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -90,9 +96,12 @@ Widget locationAndOthers() {
       Container(
         height: 100,
         width: 400,
-        color: Colors.blue[800],
         alignment: Alignment.centerLeft,
         margin: const EdgeInsets.symmetric(horizontal: 20),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: Colors.blue[800],
+        ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -132,9 +141,12 @@ Widget locationAndOthers() {
       Container(
         height: 100,
         width: 400,
-        color: Colors.blue[800],
         alignment: Alignment.centerLeft,
         margin: const EdgeInsets.symmetric(horizontal: 20),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: Colors.blue[800],
+        ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -174,9 +186,12 @@ Widget locationAndOthers() {
       Container(
         height: 100,
         width: 400,
-        color: Colors.blue[800],
         alignment: Alignment.centerLeft,
-        margin: const EdgeInsets.symmetric(horizontal: 20),
+        margin: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: Colors.blue[800],
+        ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(

@@ -6,8 +6,11 @@ Widget containerInfo() {
     width: 400,
     alignment: Alignment.topLeft,
     padding: const EdgeInsets.all(20),
-    color: Colors.blue[800],
     margin: const EdgeInsets.all(20),
+    decoration: BoxDecoration(
+      borderRadius: BorderRadius.circular(20),
+      color: Colors.blue[800],
+    ),
     child: const Column(
       children: [
         Row(
@@ -29,14 +32,14 @@ Widget containerInfo() {
                   'Rein Gundersen Bentdal',
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 20,
+                      fontSize: 18,
                       fontWeight: FontWeight.bold),
                 ),
                 Text(
                   'Creative builder',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 15,
+                    fontSize: 14,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
