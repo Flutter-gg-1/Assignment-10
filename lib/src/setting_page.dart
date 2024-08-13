@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class SettingPage extends StatelessWidget {
   const SettingPage({super.key});

@@ -1,16 +1,18 @@
-# setting_page
+![My Image](./lib/images/img_Tuwaiq.png)
 
-A new Flutter project.
 
-## Getting Started
+# Flutter Setting Page Example
 
-This project is a starting point for a Flutter application.
+settings page . user information display, section headers, and list tiles with leading icons and subtitles.
 
-A few resources to get you started if this is your first Flutter project:
+<hr>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Features:**
+<li>User information card with name, title, and profile picture
+<li>Section headers for different settings categories
+<li>List tiles with leading icons and subtitles for each setting option
+<li>Customizable card colors and icons
+<hr>
+
+![My Image](./lib/images/setting-page.png)
