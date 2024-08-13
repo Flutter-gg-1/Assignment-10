@@ -127,7 +127,7 @@ class UserSetting extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -135,10 +135,17 @@ class UserSetting extends StatelessWidget {
                   Column(
                     children: [
                       Container(
+                        height: 30,
+                        width: 25,
                         decoration: BoxDecoration(
+                          
                             shape: BoxShape.circle,
+                         
                             color: const Color.fromARGB(255, 152, 216, 198)),
+                           
                         child: Icon(Icons.attach_money, color: Colors.black),
+                        
+                        
                       ),
                       Text("Wallet")
                     ],
@@ -146,10 +153,12 @@ class UserSetting extends StatelessWidget {
                   Column(
                     children: [
                       Container(
+                         height: 30,
+                        width: 30,
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color: const Color.fromARGB(255, 152, 216, 198)),
-                        child: Icon(Icons.card_giftcard, color: Colors.black),
+                        child: Icon(Icons.card_giftcard, color: Colors.black,size: 20,),
                       ),
                       
                       Text("Delivery")
@@ -158,10 +167,12 @@ class UserSetting extends StatelessWidget {
                   Column(
                     children: [
                       Container(
+                         height: 30,
+                        width: 30,
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color:const Color.fromARGB(255, 152, 216, 198)),
-                        child: Icon(Icons.message, color: Colors.black),
+                        child: Icon(Icons.message, color: Colors.black ),
                       ),
                       Text("Massage")
                     ],
@@ -169,6 +180,8 @@ class UserSetting extends StatelessWidget {
                   Column(
                     children: [
                       Container(
+                         height: 30,
+                        width: 30,
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color: const Color.fromARGB(255, 152, 216, 198)),
@@ -190,9 +203,9 @@ class UserSetting extends StatelessWidget {
                     color:  const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
-                          color: const Color.fromARGB(255, 117, 117, 117),
-                          blurRadius: 40,
-                          spreadRadius: 0.1)
+                          color:  Colors.grey,
+                          blurRadius: 30,
+                          spreadRadius: 0.2)
                     ],
                     borderRadius: BorderRadius.circular(20)),
                 child: Row(
@@ -236,9 +249,9 @@ class UserSetting extends StatelessWidget {
                     color:  const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey.shade600,
-                          blurRadius: 40,
-                          spreadRadius: 0.1)
+                          color: Colors.grey,
+                          blurRadius: 30,
+                          spreadRadius: 0.12)
                     ],
                     borderRadius: BorderRadius.circular(20)),
                 child: Row(
@@ -281,9 +294,9 @@ class UserSetting extends StatelessWidget {
                     color:   const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey.shade600,
-                          blurRadius: 40,
-                          spreadRadius: 0.1)
+                          color: Colors.grey,
+                          blurRadius: 30,
+                          spreadRadius: 0.2)
                     ],
                     borderRadius: BorderRadius.circular(20)),
                 child: Row(
@@ -326,9 +339,9 @@ class UserSetting extends StatelessWidget {
                     color:    const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey.shade600,
-                          blurRadius: 40,
-                          spreadRadius: 0.1)
+                          color: Colors.grey,
+                          blurRadius: 30,
+                          spreadRadius: 0.2)
                     ],
                     borderRadius: BorderRadius.circular(20)),
                 child: Row(
@@ -371,9 +384,9 @@ class UserSetting extends StatelessWidget {
                     color:  const Color.fromARGB(255, 164, 200, 203),
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.grey.shade600,
-                          blurRadius: 40,
-                          spreadRadius: 0.1)
+                          color: Colors.grey,
+                          blurRadius: 30,
+                          spreadRadius: 0.2)
                     ],
                     borderRadius: BorderRadius.circular(20)),
                 child: Row(
