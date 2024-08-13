@@ -39,7 +39,7 @@ Widget locationAndOthers() {
                   ),
                   Text(
                     'Ensure you harvesting address',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Color.fromRGBO(255, 255, 255, 0.5)),
                   ),
                 ],
               ),
@@ -84,7 +84,7 @@ Widget locationAndOthers() {
                   ),
                   Text(
                     'System permission changes',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Color.fromRGBO(255, 255, 255, 0.5)),
                   ),
                 ],
               ),
@@ -129,7 +129,7 @@ Widget locationAndOthers() {
                   ),
                   Text(
                     'Basic functional settings',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Color.fromRGBO(255, 255, 255, 0.5)),
                   ),
                 ],
               ),
@@ -174,7 +174,7 @@ Widget locationAndOthers() {
                   ),
                   Text(
                     'Take over the news in time',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Color.fromRGBO(255, 255, 255, 0.5)),
                   ),
                 ],
               ),
@@ -219,7 +219,7 @@ Widget locationAndOthers() {
                   ),
                   Text(
                     'we are here to help',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Color.fromRGBO(255, 255, 255, 0.5)),
                   ),
                 ],
               ),

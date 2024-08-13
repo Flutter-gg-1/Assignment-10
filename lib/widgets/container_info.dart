@@ -38,7 +38,7 @@ Widget containerInfo() {
                 Text(
                   'Creative builder',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Color.fromRGBO(255, 255, 255, 0.5),
                     fontSize: 14,
                     fontWeight: FontWeight.bold,
                   ),
