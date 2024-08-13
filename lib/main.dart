@@ -516,28 +516,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-          // Container(
-          //     width: 400,
-          //     height: 60,
-          //     decoration: BoxDecoration(
-          //         borderRadius: BorderRadius.circular(20),
-          //         color: Colors.white,
-          //         boxShadow: kElevationToShadow[6]),
-          //     child: const Row(
-          //       children: [
-          //         Padding(
-          //           padding: EdgeInsets.only(
-          //             left: 20,
-          //           ),
-          //         ),
-          //         Icon(
-          //           Icons.location_pin,
-          //           size: 30,
-          //           color: Colors.black,
-          //         ),
-          //         Column(
-          //           children: [Text("Address"), Text("Ensure")],
-          //         )
-          //       ],
-          //     ),
-          //   )
+         
