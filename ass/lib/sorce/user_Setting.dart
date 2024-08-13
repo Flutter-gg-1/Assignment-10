@@ -210,6 +210,7 @@ class UserSetting extends StatelessWidget {
                     ),
                     SizedBox(
                       width: 10,
+                      //
                     ),
                     Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
