@@ -232,109 +232,197 @@ class Firstscrean extends StatelessWidget {
                 ),
               ],
             ),
-            const Padding(
-              //here i added padiing bettwen each list tail inside tha main colum
-              padding: EdgeInsets.all(8.0),
-              child: Card(
-                child: ListTile(
-                  title: Text(
-                    "Address",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                  leading: CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.purple,
-                    child: Icon(
-                      size: 30,
-                      Icons.add_location,
-                      color: Colors.white,
+            Padding(
+              //padding for each contaner
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  //box decortion has shdoow color and blur
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.3),
+                      spreadRadius: 0,
+                      blurRadius: 7,
+                      offset: const Offset(0, 2),
                     ),
+                  ],
+                  borderRadius: BorderRadius.circular(25), //border circular
+                ),
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    //added shape to the card
+                    borderRadius: BorderRadius.circular(20),
                   ),
-                  subtitle: Text("Ensure your harvesting address"),
+                  child: const ListTile(
+                    //list tile hass all the information
+                    title: Text(
+                      "Address",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    leading: CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Colors.purple,
+                      child: Icon(
+                        size: 30,
+                        Icons.add_location,
+                        color: Colors.white,
+                      ),
+                    ),
+                    subtitle: Text("Ensure your harvesting address"),
+                  ),
                 ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Card(
-                child: ListTile(
-                  title: Text(
-                    "Privacy",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                  leading: CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Color.fromARGB(255, 229, 58, 124),
-                    child: Icon(
-                      size: 30,
-                      Icons.lock,
-                      color: Colors.white,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.3),
+                      spreadRadius: 0,
+                      blurRadius: 7,
+                      offset: const Offset(0, 2),
                     ),
+                  ],
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
                   ),
-                  subtitle: Text("System permsion change"),
+                  child: const ListTile(
+                    title: Text(
+                      "Privacy",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    leading: CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Color.fromARGB(255, 229, 58, 124),
+                      child: Icon(
+                        size: 30,
+                        Icons.lock,
+                        color: Colors.white,
+                      ),
+                    ),
+                    subtitle: Text("System permission change"),
+                  ),
                 ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Card(
-                child: ListTile(
-                  title: Text(
-                    "Ginral",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                  leading: CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Color.fromARGB(238, 198, 164, 28),
-                    child: Icon(
-                      size: 30,
-                      Icons.menu,
-                      color: Colors.white,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.3),
+                      spreadRadius: 0,
+                      blurRadius: 7,
+                      offset: const Offset(0, 2),
                     ),
+                  ],
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
                   ),
-                  subtitle: Text("Ensure your harvesting address"),
+                  child: const ListTile(
+                    title: Text(
+                      "General",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    leading: CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Color.fromARGB(238, 198, 164, 28),
+                      child: Icon(
+                        size: 30,
+                        Icons.menu,
+                        color: Colors.white,
+                      ),
+                    ),
+                    subtitle: Text("Ensure your harvesting address"),
+                  ),
                 ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Card(
-                child: ListTile(
-                  title: Text(
-                    "Notficaions",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                  leading: CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Color.fromARGB(255, 38, 210, 181),
-                    child: Icon(
-                      size: 30,
-                      Icons.notifications,
-                      color: Colors.white,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.3),
+                      spreadRadius: 0,
+                      blurRadius: 7,
+                      offset: const Offset(0, 2),
                     ),
+                  ],
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
                   ),
-                  subtitle: Text("Basic functioal settings"),
+                  child: const ListTile(
+                    title: Text(
+                      "Notifications",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    leading: CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Color.fromARGB(255, 38, 210, 181),
+                      child: Icon(
+                        size: 30,
+                        Icons.notifications,
+                        color: Colors.white,
+                      ),
+                    ),
+                    subtitle: Text("Basic functional settings"),
+                  ),
                 ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Card(
-                child: ListTile(
-                  title: Text(
-                    "Support",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                  leading: CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Color.fromARGB(255, 136, 114, 94),
-                    child: Icon(
-                      Icons.chat,
-                      color: Colors.white,
-                      size: 30,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.3),
+                      spreadRadius: 0,
+                      blurRadius: 7,
+                      offset: const Offset(0, 2),
                     ),
+                  ],
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
                   ),
-                  subtitle: Text("we are here to healp"),
+                  child: const ListTile(
+                    title: Text(
+                      "Support",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    leading: CircleAvatar(
+                      radius: 30,
+                      backgroundColor: Color.fromARGB(255, 136, 114, 94),
+                      child: Icon(
+                        Icons.chat,
+                        color: Colors.white,
+                        size: 30,
+                      ),
+                    ),
+                    subtitle: Text("We are here to help"),
+                  ),
                 ),
               ),
             ),
