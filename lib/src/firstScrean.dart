@@ -38,10 +38,11 @@ class Firstscrean extends StatelessWidget {
                   //here i used column for list tile
                   ListTile(
                     leading: CircleAvatar(
+                      backgroundColor: Colors.white,
                       radius: 30,
                       child: Icon(
-                        Icons.person,
-                        size: 40,
+                        Icons.account_circle,
+                        size: 30,
                       ),
                     ),
                     title: Text(
