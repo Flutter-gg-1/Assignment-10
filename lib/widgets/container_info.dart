@@ -9,7 +9,7 @@ Widget containerInfo() {
     margin: const EdgeInsets.all(20),
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(20),
-      color: Colors.blue[800],
+      color: const Color.fromRGBO(55, 116, 254, 1),
     ),
     child: const Column(
       children: [
@@ -56,7 +56,7 @@ Widget containerInfo() {
               Column(
                 children: [
                   Text(
-                    '100',
+                    '846',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -64,9 +64,30 @@ Widget containerInfo() {
                     ),
                   ),
                   Text(
-                    'Posts',
+                    'Collect',
+                    style: TextStyle(
+                      color: Color.fromRGBO(255, 255, 255, 0.5),
+                      fontSize: 15,
+                      fontWeight: FontWeight.normal,
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(width: 10),
+              Column(
+                children: [
+                  Text(
+                    '51',
                     style: TextStyle(
                       color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    'Attention',
+                    style: TextStyle(
+                      color: Color.fromRGBO(255, 255, 255, 0.5),
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
@@ -77,7 +98,7 @@ Widget containerInfo() {
               Column(
                 children: [
                   Text(
-                    '100',
+                    '267',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -85,9 +106,9 @@ Widget containerInfo() {
                     ),
                   ),
                   Text(
-                    'Posts',
+                    'Track',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Color.fromRGBO(255, 255, 255, 0.5),
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
@@ -98,7 +119,7 @@ Widget containerInfo() {
               Column(
                 children: [
                   Text(
-                    '100',
+                    '39',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -106,30 +127,9 @@ Widget containerInfo() {
                     ),
                   ),
                   Text(
-                    'Posts',
+                    'Coupons',
                     style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 15,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
-              ),
-              SizedBox(width: 10),
-              Column(
-                children: [
-                  Text(
-                    '100',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text(
-                    'Posts',
-                    style: TextStyle(
-                      color: Colors.white,
+                      color: Color.fromRGBO(255, 255, 255, 0.5),
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),

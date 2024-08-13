@@ -10,7 +10,7 @@ Widget locationAndOthers() {
         margin: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          color: Colors.blue[800],
+          color: const Color.fromRGBO(55, 116, 254, 1),
         ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
@@ -55,7 +55,7 @@ Widget locationAndOthers() {
         margin: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          color: Colors.blue[800],
+          color: const Color.fromRGBO(55, 116, 254, 1),
         ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
@@ -100,7 +100,7 @@ Widget locationAndOthers() {
         margin: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          color: Colors.blue[800],
+          color: const Color.fromRGBO(55, 116, 254, 1),
         ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
@@ -145,7 +145,7 @@ Widget locationAndOthers() {
         margin: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          color: Colors.blue[800],
+          color: const Color.fromRGBO(55, 116, 254, 1),
         ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
@@ -190,7 +190,7 @@ Widget locationAndOthers() {
         margin: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          color: Colors.blue[800],
+          color: const Color.fromRGBO(55, 116, 254, 1),
         ),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
