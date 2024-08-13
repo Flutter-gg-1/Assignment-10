@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '/src/screens/home_screen.dart';
-import '/src/screens/profile_screen.dart';
+import '/src/screens/wallet_screen.dart';
+import '/src/screens/delivery_screen.dart';
+import '/src/screens/services_screen.dart';
+import '/src/screens/messge_screen.dart';
 import 'src/constants/colors.dart';
 
 void main() {
@@ -37,8 +40,10 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/': (context) => const HomeScreen(),
-          '/profile': (context) => const ProfileScreen(),
-          // '/settings': (context) => const ProfileScreen(),
+          '/wallet': (context) => const WalletScreen(),
+          '/delivery': (context) => const DeliveryScreen(),
+          '/services': (context) => const ServicesScreen(),
+          '/message': (context) => const MessageScreen(),
         },
       ),
     );

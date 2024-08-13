@@ -124,7 +124,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     CustomIcon(
                       icon: Icons.attach_money,
-                      routeName: '/wallet',
+                      routeName: '/',
                     ),
                     SizedBox(height: 3),
                     Text("Wallet",
@@ -136,7 +136,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     CustomIcon(
                       icon: Icons.card_giftcard,
-                      routeName: '/delivery',
+                      routeName: '/',
                     ),
                     SizedBox(height: 3),
                     Text("Delivery",
@@ -148,7 +148,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     CustomIcon(
                       icon: Icons.message,
-                      routeName: '/message',
+                      routeName: '/',
                     ),
                     SizedBox(height: 3),
                     Text("Message",
@@ -160,7 +160,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     CustomIcon(
                       icon: Icons.room_service,
-                      routeName: '/wallet',
+                      routeName: '/',
                     ),
                     SizedBox(height: 3),
                     Text("Service",
