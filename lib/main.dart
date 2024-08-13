@@ -247,7 +247,7 @@ class HomeScreen extends StatelessWidget {
             ]),
             Container(
                 width: 400,
-                height: 80,
+                height: 70,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     color: const Color.fromARGB(255, 217, 233, 243),
@@ -278,24 +278,240 @@ class HomeScreen extends StatelessWidget {
                         const Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Yara Mohammed Albouq",
+                            Text("Address",
                                 style: TextStyle(
-                                    fontSize: 16,
+                                    fontSize: 18,
                                     fontWeight: FontWeight.bold,
                                     color: Color.fromARGB(255, 0, 0, 0))),
                             Text(
-                              "Creative builder",
+                              "Ensure your harvesting address",
                               style: TextStyle(
-                                fontSize: 15,
+                                fontSize: 16,
                                 color: Color.fromARGB(255, 95, 94, 94),
                               ),
                             ),
                           ],
                         ),
+                        
                       ],
                     ),
+                    
                   ],
                 )),
+                Container(
+                width: 400,
+                height: 70,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 217, 233, 243),
+                    boxShadow: kElevationToShadow[6]),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Row(
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.only(
+                            left: 20,
+                          ),
+                        ),
+                        Container(
+                          width: 50,
+                          height: 50,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            color: const Color.fromARGB(255, 140, 185, 222),
+                          ),
+                          child: const Icon(
+                            Icons.lock,
+                            size: 35,
+                            color: Color.fromARGB(255, 255, 255, 255),
+                          ),
+                        ),
+                        const Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Privacy",
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 0, 0, 0))),
+                            Text(
+                              "System permission change",
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Color.fromARGB(255, 95, 94, 94),
+                              ),
+                            ),
+                          ],
+                        ),
+                        
+                      ],
+                    ),
+                    
+                  ],
+                )),
+                Container(
+                width: 400,
+                height: 70,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 217, 233, 243),
+                    boxShadow: kElevationToShadow[6]),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Row(
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.only(
+                            left: 20,
+                          ),
+                        ),
+                        Container(
+                          width: 50,
+                          height: 50,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            color: const Color.fromARGB(255, 140, 185, 222),
+                          ),
+                          child: const Icon(
+                            Icons.menu,
+                            size: 35,
+                            color: Color.fromARGB(255, 255, 255, 255),
+                          ),
+                        ),
+                        const Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("General",
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 0, 0, 0))),
+                            Text(
+                              "Basic functional settings",
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Color.fromARGB(255, 95, 94, 94),
+                              ),
+                            ),
+                          ],
+                        ),
+                        
+                      ],
+                    ),
+                    
+                  ],
+                )),
+                Container(
+                width: 400,
+                height: 70,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 217, 233, 243),
+                    boxShadow: kElevationToShadow[6]),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Row(
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.only(
+                            left: 20,
+                          ),
+                        ),
+                        Container(
+                          width: 50,
+                          height: 50,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            color: const Color.fromARGB(255, 140, 185, 222),
+                          ),
+                          child: const Icon(
+                            Icons.notifications,
+                            size: 35,
+                            color: Color.fromARGB(255, 255, 255, 255),
+                          ),
+                        ),
+                        const Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Notifications",
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 0, 0, 0))),
+                            Text(
+                              "Take over the news in time",
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Color.fromARGB(255, 95, 94, 94),
+                              ),
+                            ),
+                          ],
+                        ),
+                        
+                      ],
+                    ),
+                    
+                  ],
+                )),
+                Container(
+                width: 400,
+                height: 70,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 217, 233, 243),
+                    boxShadow: kElevationToShadow[6]),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Row(
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.only(
+                            left: 20,
+                          ),
+                        ),
+                        Container(
+                          width: 50,
+                          height: 50,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            color: const Color.fromARGB(255, 140, 185, 222),
+                          ),
+                          child: const Icon(
+                            Icons.support_agent_sharp,
+                            size: 35,
+                            color: Color.fromARGB(255, 255, 255, 255),
+                          ),
+                        ),
+                        const Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Support",
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 0, 0, 0))),
+                            Text(
+                              "We are here to help",
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Color.fromARGB(255, 95, 94, 94),
+                              ),
+                            ),
+                          ],
+                        ),
+                        
+                      ],
+                    ),
+                    
+                  ],
+                )),
+
+
           ]))),
     );
   }
