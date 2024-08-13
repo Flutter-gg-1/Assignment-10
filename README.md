@@ -8,8 +8,8 @@ Colorful buttons and elements are a perfect addition for a better **user experie
 
 # 2. Widgets Used 🎨
 In this section, I will discuss the widgets in two aspects :
-1. Main or Basic Widgets : Widgets that are **built-in** in flutter ✅
-2. Custom Widgets : Widgets that I have **created** for a more readable code ✅
+1. **Main** or **Basic** **Widgets** : Widgets that are **built-in** in flutter ✅
+2. **Custom Widgets** : Widgets that I have **created** for a more readable code ✅
 
 Let's get started !
 
@@ -55,14 +55,14 @@ It takes two parameters `value` and `label` both as Strings. See Image (3).
 
 Image (3) : Code snippit of using statistic widget
 
-### 2.2.1 styled icon
+### 2.2.2 styled icon
 I named the circled colored icon in the page as a `Styled Icon`. See Image (4)
 
 <img src='./readme_media/styled_icon.png' alt='styled_icon' style='border: 5px solid #1c1651'>
 
 Image (4) : Code snippit of StyledIcon widget
 
-### 2.2.1 settings item
+### 2.2.3 settings item
 This widget represents the white rectangles that represents a settings item. Since they're all the same style with different configrations liek the color and text, I decided to create a widget for a `Settings Item`. See Image (5).
 
 <img src='./readme_media/settings_item.png' alt='main_widgets1' style='border: 5px solid #1c1651' width=300>
