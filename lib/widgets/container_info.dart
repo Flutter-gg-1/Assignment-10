@@ -7,6 +7,7 @@ Widget containerInfo() {
     alignment: Alignment.topLeft,
     padding: const EdgeInsets.all(20),
     color: Colors.blue[800],
+    margin: const EdgeInsets.all(20),
     child: const Column(
       children: [
         Row(

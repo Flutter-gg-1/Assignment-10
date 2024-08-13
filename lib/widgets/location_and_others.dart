@@ -8,6 +8,7 @@ Widget locationAndOthers() {
         width: 400,
         color: Colors.blue[800],
         alignment: Alignment.centerLeft,
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -49,6 +50,7 @@ Widget locationAndOthers() {
         width: 400,
         color: Colors.blue[800],
         alignment: Alignment.centerLeft,
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -90,6 +92,7 @@ Widget locationAndOthers() {
         width: 400,
         color: Colors.blue[800],
         alignment: Alignment.centerLeft,
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -131,6 +134,7 @@ Widget locationAndOthers() {
         width: 400,
         color: Colors.blue[800],
         alignment: Alignment.centerLeft,
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
@@ -172,6 +176,7 @@ Widget locationAndOthers() {
         width: 400,
         color: Colors.blue[800],
         alignment: Alignment.centerLeft,
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         child: const Padding(
           padding: EdgeInsets.only(left: 20),
           child: Row(
