@@ -8,15 +8,18 @@ class Firstscrean extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "User sittings",
+          "User sittings", //appbar widgt with bold font
           style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
         ),
       ),
       body: Center(
+        //to center all the project
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          //colum to handil all the app
+          crossAxisAlignment: CrossAxisAlignment.center, //centring evry thing
           children: [
             Container(
+              //the card added with hight and wedth and shadow
               height: 200,
               width: 400,
               decoration: BoxDecoration(
@@ -32,6 +35,7 @@ class Firstscrean extends StatelessWidget {
               ),
               child: const Column(
                 children: [
+                  //here i used column for list tile
                   ListTile(
                     leading: CircleAvatar(
                       radius: 30,
@@ -50,9 +54,11 @@ class Firstscrean extends StatelessWidget {
                             fontSize: 17)),
                   ),
                   SizedBox(
+                    //this size book will saprate the list tail from the row
                     height: 30,
                   ),
                   Row(
+                    //here i added row to handel the children for track coupons..etc
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Expanded(
@@ -76,6 +82,7 @@ class Firstscrean extends StatelessWidget {
                         ),
                       ),
                       Expanded(
+                        //i used expanded to handel the area issue
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -144,6 +151,7 @@ class Firstscrean extends StatelessWidget {
               height: 10,
             ),
             const Row(
+              //here i used row to handel section for message service ...etc
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
@@ -225,6 +233,7 @@ class Firstscrean extends StatelessWidget {
               ],
             ),
             const Padding(
+              //here i added padiing bettwen each list tail inside tha main colum
               padding: EdgeInsets.all(8.0),
               child: Card(
                 child: ListTile(
