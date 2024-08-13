@@ -22,7 +22,7 @@ This Flutter project showcases a simple user settings interface with multiple ca
 
 
 
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/5bf7062d-81c3-49fe-b658-6c4bcab3895c">
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/140feff4-bc73-48bb-87b0-35f3aa826305">
 
 
 
